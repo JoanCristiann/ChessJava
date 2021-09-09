@@ -1,7 +1,5 @@
 package board;
 
-import java.util.List;
-
 public class GameBoard {
 	
 	private int row;
@@ -30,7 +28,13 @@ public class GameBoard {
 		this.column = column;
 	}
 	
+	public Piece piece(int row, int column){
+		return pieces[row][column];
+	}
 	
+	public Piece piece(Position position){
+		return pieces[position.getRow()][position.getColumn()];
+	}
 	
 	
 	

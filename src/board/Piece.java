@@ -17,7 +17,7 @@ public class Piece {
 		return board;
 	}
 	
-	//public Piece[][] possibleMoves() {
+	//public Piece possibleMoves() {
 		//return Piece[this.position.getRow()][this.position.getColumn()];
 	//}
 	public boolean possibleMove(Position position) {
